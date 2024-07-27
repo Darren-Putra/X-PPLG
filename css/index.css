@@ -1,0 +1,176 @@
+*{
+  font-family: poppins, sans-serif;
+}
+
+body{
+  background-image: url('img/bg6.jpg');
+  background-size: 150%;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(1px);
+  background-attachment: fixed;
+}
+
+.navstuff{
+  width: 100px;
+}
+
+.nav-pills > li > a.active {
+    background-color: rgba(0 , 0 , 0 , 0) !important;
+    border: 1px solid green;
+}
+
+.navbar > a {
+  color: #20cc00 !important;
+}
+
+.nav > li > a{
+  color: #20cc00 !important;
+}
+
+nav{
+  background-color: black;
+}
+
+#structure{
+  margin-top: 100px;
+  border: 1px solid green;
+  padding: 20px;
+  background: linear-gradient( rgba(0,0,0,0), green);
+  border-radius: 10px;
+}
+
+#schedule{
+  margin-top: 100px;
+  border: 1px solid green;
+  padding: 20px;
+  background: linear-gradient( rgba(0,0,0,0), green);
+  border-radius: 10px;
+}
+
+h4{
+  background-color: green;
+  border-radius: 10px;
+}
+
+#gallery{
+  margin-top: 100px;
+  border: 1px solid green;
+  padding: 20px;
+ background: linear-gradient( rgba(0,0,0,0), green);
+  border-radius: 10px;
+}
+
+.carousel-item > img {
+  border: 1px solid green;
+}
+
+#sosmed{
+  margin-top: 100px;
+}
+
+.card{
+  background-color: rgba(0, 0, 0, 0) !important;
+  border: 1px solid green;
+}
+
+/* IMG ANIMATIONS */
+.grow img{
+transition: 0.3s ease;
+}
+
+.grow img:hover{
+-webkit-transform: scale(1.1);
+-ms-transform: scale(1.1);
+transform: scale(1.1);
+transition: 0.3s ease;
+}
+/* IMG ANIMATIONS */
+
+.reveal{
+  position: relative;
+  transform: translateY(150px);
+  opacity: 0;
+  transition: 1s all ease;
+}
+
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
+
+.reveal.active{
+  transform: translateY(0);
+  opacity: 1;
+}
+/* END SECTIONS ANIMATIONS */
+.paswot{
+  background-color: rgb(3, 82, 3);
+}
+.paswot form h1{
+  text-align: center;
+}
+#aib{
+  margin-top: 10px;
+  border: 1px solid green;
+  padding: 20px;
+  background: linear-gradient( rgba(0,0,0,0), green);
+  border-radius: 10px;
+}
+.bton{
+  background-color: black;
+  margin-top: 5px;
+  position: relative;
+  left: 25%;
+  width: 50%;
+  
+  
+}
+.nmdpn{
+  width: 80%;
+  position: relative;
+  right: 20px;
+}
+.psswd{
+  width: 80%;
+  position: relative;
+  right: 20px;
+}
+/*  .form-contain{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-left: ;
+} */
+form{
+  padding: 5px;
+  text-align: center;
+}
+::placeholder{
+  padding: 10px;
+  font-size: 2px;
+}
+
+/* tulisan aib?? */
+#nav-disabled-tab{
+  color: #20cc00;
+}
+
+form > input.bton{
+  margin: 20%;
+}
+
+.aibib{
+  margin-top: ;
+}
+.logo-pplg{
+  
+}
+div > a > .linkgl{
+  background-color: green; !important
+  border: 50px solid pink !important;
+  color: green;
+  }
+.btn-primary{
+  background-color: rgba(0 , 0 , 0 , 0)!important;
+  border: 1px solid lime!important;
+}
