@@ -3,7 +3,7 @@
 }
 
 body{
-  background-image: url('img/bg6.jpg');
+  background-image: url('/../img/bg6.jpg');
   background-size: 150%;
   background-repeat: no-repeat;
   backdrop-filter: blur(1px);
